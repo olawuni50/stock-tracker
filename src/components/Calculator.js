@@ -113,19 +113,7 @@ const Calculator = () => {
                 <CalculatorKey className="key-zero" keyValue={0} onClick={handleOperation}/>
             </div>
 
-            {/* <div className="keys-numbers">
-                <CalculatorKey keyValue={9} onClick={handleOperation}/>
-                <CalculatorKey keyValue={8} onClick={handleOperation}/>
-                <CalculatorKey keyValue={7} onClick={handleOperation}/>
-                <CalculatorKey keyValue={6} onClick={handleOperation}/>
-                <CalculatorKey keyValue={5} onClick={handleOperation}/>
-                <CalculatorKey keyValue={4} onClick={handleOperation}/>
-                <CalculatorKey keyValue={3} onClick={handleOperation}/>
-                <CalculatorKey keyValue={2} onClick={handleOperation}/>
-                <CalculatorKey keyValue={1} onClick={handleOperation}/>
-                <CalculatorKey className="key-dot" keyValue={"."} onClick={handleOperation}/>
-                <CalculatorKey className="key-zero" keyValue={0} onClick={handleOperation}/>
-            </div> */}
+            
 
             <div className="keys-operators">
                 <CalculatorKey keyValue={"+"} onClick={handleOperation}/>
