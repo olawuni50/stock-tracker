@@ -53,22 +53,7 @@ const AddGoods = ({onAdd, checked, value}) => {
                     value={qtySold} onChange={(e) =>setQtySold(e.target.value)} />
                 </div>
 
-                {/* <h3>Choose Currency</h3>
-
-                <div className="form-radio">
-                    <label>
-                <input type="radio" name="currency" id="naira"
-                    value="naira" onChange={(e) =>setCurrency(e.target.value)} />
-                    NGN</label>                   
-                </div>
-
-                <div className="form-radio">
-                    <label>
-                <input type="radio" name="currency"  id="dollar"
-                    value="dollar" onChange={(e) =>setCurrency(e.target.value)}/>
-                
-                    Dollar($)</label>
-                    </div> */}
+               
                     
                     <button className="add-btn">Add</button>
             </form>
