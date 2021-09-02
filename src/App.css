@@ -1,0 +1,358 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border:1px solid #ddd;
+}
+
+th, td{
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color:#f2f2f2}
+
+.my-table{
+  overflow-x: auto;
+}
+ */
+
+
+
+.container{
+  /* max-width: 1000px;
+  margin: 0 auto; */
+border: 2px solid #dedede;
+ /* margin-top: 5rem; */
+ background-color: #FFD498 ;
+ border-radius: 10px;
+
+}
+
+.header{
+  color: #333;
+  text-align: center;
+  background-color: green;
+  color:#fff;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding:10px
+}
+
+/* Form */
+.form{
+margin-top: 2rem;
+}
+
+.form h2{
+  margin-bottom:1rem;
+  margin-left: 0.5rem;
+  border-bottom: 2px solid #333;
+}
+
+.form h3{
+  padding-left: 10px;
+  
+}
+
+
+.form-control{
+  padding: 10px;
+}
+
+.form-control label{
+  display:block;
+  padding-bottom: 4px;
+  font-size: 17px;
+}
+
+
+.form-control input{
+  padding: 10px;
+  outline: none;
+  border: 2px solid #dedede;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.form-control input:focus{
+  background-color: #dedede;
+}
+
+.form-label{
+  padding: 5px;
+}
+
+.form-control input{
+  padding: 5px;
+}
+
+.form-radio{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.add-btn{
+  padding: 5px;
+  width: 100%;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;  
+  cursor: pointer;
+}
+
+/* Transaction List */
+.transaction-list h2{
+border-bottom: 2px solid #333;
+margin-left: 0.6rem;
+margin-bottom: 1rem;
+}
+
+.list{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Transaction Card */
+
+.transaction-card{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.transaction-card input{
+  width: 10%;
+  outline: none;
+  border: 2px solid #dedede;
+  border-radius: 10px;
+  padding-left: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red
+}
+
+.delete-btn{
+  background-color: red;
+  color:#fff;
+  border:none;
+  padding: 4px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.edit-btn{
+  background-color: blue;
+  color:#fff;
+  border:none;
+  padding: 4px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Result */
+.my-result{
+ /* display: flex;
+ justify-content: space-between; */
+ }
+
+ .results{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  /* background-color:red; */
+  color: #333;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: 80%;
+  margin-bottom: 1rem;
+  border-radius:10px;
+  line-height:1.5;
+}
+
+.calc-btn{
+  /* margin-right: 2rem; */
+  background-color: blue;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color:#fff;
+  padding: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.calc-btn:hover{
+  transform: scale(0.98)
+}
+
+.calc-btn-red{
+  background-color:red;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  color:#fff;
+  padding: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.calc-btn-red:hover{
+  transform: scale(0.98)
+}
+
+
+
+/* .results > div{
+  border-right: 2px solid black;
+} */
+
+/* Calculator */
+.calculator{
+  width: 20%;
+  height: 60%;
+  background-color: lightcyan;
+  display:grid;
+  /* border: ridge; */
+}
+
+.calculator-keypad{
+  background-color: lightblue;
+  padding-top: 0.3rem;
+  display:flex;
+  
+}
+
+.keys-numbers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.keys-function{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.key-zero{
+width: 100%
+}
+.calculator-input{
+  border-color:black;
+  border:ridge;
+  text-align: right;
+  padding-right: 10%;
+  font-weight: bold;
+  font-size: xx-large
+}
+
+.calculator-button button{
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  width: 2rem;
+  height: 1.5rem;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border:none;
+}
+
+.calculator button:hover{
+  transform: scale(0.98);
+  background-color: red;
+  color: #fff;
+}
+
+
+
+
+@media (max-width: 768px){
+
+  .transaction-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding-bottom: 10px; */
+    border: 2px solid #333;
+    border-radius: 10px;
+
+  }
+
+  .list{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+
+  .list Th{
+    padding: 10px
+  }
+
+
+
+   .transaction-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2px;
+  }
+
+  .transaction-card Th{
+    padding: 5px;
+  }
+
+  .transaction-card Td{
+    padding: 5px;
+  }
+
+
+  .delete-btn{
+    padding: 3px;
+    width: 50%;
+    /* margin-top: 3px; */    
+  }
+
+  .edit-btn{
+    padding: 3px;
+    width: 50%;
+    /* margin-top: 3px; */
+    
+  }
+
+  .calculator{
+    width: 60%;
+  }
+
+  .results{
+    width: auto;
+  }
+
+  .results h2{
+    font-size: 1.25rem;
+  }
+
+  .results >div{
+    border-right: 2px solid #333;
+    padding-right: 10px;
+  }
+}
+
